@@ -1,0 +1,39 @@
+{
+  "name": "dmp/rest-bundle",
+  "license": "MIT",
+  "type": "symfony-bundle",
+  "description": "DMP Rest bundle",
+  "require": {
+    "php": ">=8.1",
+    "ext-json": "*",
+    "doctrine/orm": "^2.13",
+    "sensio/framework-extra-bundle": "^6.2",
+    "symfony/web-link": "^5.4 || ^6.2",
+    "symfony/framework-bundle": "^5.4 || ^6.2",
+    "symfony/serializer-pack": "^1.1"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "phpunit/phpunit": "^9.5 || ^10.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "DMP\\PaginatorBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DMP\\PaginatorBundle\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit",
+    "test-cc": "phpunit coverage-html report/"
+  },
+  "extra": {
+    "symfony": {
+      "allow-contrib": true,
+      "require": "5.4.*"
+    }
+  }
+}
