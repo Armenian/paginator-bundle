@@ -1,8 +1,8 @@
 {
-  "name": "dmp/rest-bundle",
+  "name": "dmp/paginator-bundle",
   "license": "MIT",
   "type": "symfony-bundle",
-  "description": "DMP Rest bundle",
+  "description": "DMP Paginator bundle",
   "require": {
     "php": ">=8.1",
     "ext-json": "*",
