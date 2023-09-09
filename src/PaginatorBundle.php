@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace src;
+namespace DMP\PaginatorBundle;
 
 use DMP\PaginatorBundle\DependencyInjection\PaginatorExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
